@@ -1,5 +1,6 @@
 package workfall;
 
+
 //Java Program to Demonstrate Working of
 //Comparator Interface
 
@@ -7,6 +8,7 @@ import java.util.*;
 
 //Class 1
 //A class to represent a Student
+/*
 class Student {
 
  // Attributes of a student
@@ -77,7 +79,7 @@ class SortByRollNo implements Comparator<Student>{
 	}
 	
 }
-
+*/
 //Class 4
 //Main class
 class ComparatorInterface {
@@ -87,7 +89,7 @@ class ComparatorInterface {
  {
 
      // Creating an empty ArrayList of Student type
-     ArrayList<Student> ar = new ArrayList<Student>();
+    /* ArrayList<Student> ar = new ArrayList<Student>();
 
      // Adding entries in above List
      // using add() method
@@ -122,5 +124,6 @@ class ComparatorInterface {
      // // Again iterating over entries to print them
      for (int i = 0; i < ar.size(); i++)
          System.out.println(ar.get(i));
+         */
  }
 }
